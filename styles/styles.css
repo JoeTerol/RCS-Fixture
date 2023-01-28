@@ -1,36 +1,34 @@
-*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
-   color: blanchedalmond;
+*{ 
+    font-family: 'Archivo Narrow', sans-serif;
+   
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
-section {
+section { 
     display: flex;
     flex-direction: column;    
 }
 
-h1{ font-size: 35px;
+h1 { font-size: 35px;
     display: flex;
     justify-content: center;
 }
-h3{ margin-left: 15px; 
+h3 { margin-left: 15px; 
     display: inline;
     
 }
 
-div {margin: 10px;
-    display: inline;
+div { 
+      margin: 10px;
+      display: inline;
 }
-body{
-    background-color: rgb(70, 3, 24);
- 
+body {
+    /*background-color: rgb(70, 3, 24);*/
+    background-image: url(../assets/img/fondo.jpg);
+    box-shadow: 100px 1100px 0px;
 }
-a { border-top-left-radius: 20px ;
-    border-bottom-right-radius:20px ;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+a { border-radius: 20%;
     text-decoration: none;
 }
 .container-group img {
@@ -41,6 +39,7 @@ a { border-top-left-radius: 20px ;
     display: inline;
 
 }
+.title-pages
 
 .qatar-cont:hover { background-color: aliceblue; color: brown;border: solid 1px rgb(246, 10, 10);
 } 
@@ -186,7 +185,10 @@ margin-top: 30px;
 justify-content: space-evenly;
 margin-top: 60px;
 }
-
+.title-pages{
+    color: blanchedalmond;
+    text-shadow: 2px coral;
+}
 .title-keys {
     display: flex;
     justify-content: center;
@@ -225,8 +227,5 @@ justify-content: center;
 background-color: rgb(217, 91, 13);
 }
 .octaves-span{
-    border: solid 5px rgb(193, 101, 101) ;
-}
-.quarter-left h2 { margin-left: 0; padding-left: 0px;
-
+    border: solid 5px rgb(193, 101, 101);
 }
