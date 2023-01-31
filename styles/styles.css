@@ -1,21 +1,29 @@
 *{ 
     font-family: 'Archivo Narrow', sans-serif;
-   
+   color: rgb(232, 221, 221);
     margin: 0;
     border: 0;
     box-sizing: border-box;
+}
+/*Selectores genereales*/
+h2 {
+    margin-bottom: 20px;
 }
 section { 
     display: flex;
     flex-direction: column;    
 }
 
-h1 { font-size: 35px;
+h1 { font-size: 60px;
     display: flex;
     justify-content: center;
+    padding: 30px 0 30px 0;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 h3 { margin-left: 15px; 
     display: inline;
+    padding: 15PX;
     
 }
 
@@ -31,95 +39,303 @@ body {
 a { border-radius: 20%;
     text-decoration: none;
 }
+.title-center {
+    text-align: center;
+    margin: 10px;
+}
+
+.qatar-cont:hover { 
+    background-color: aliceblue; color: brown;border: solid 1px rgb(246, 10, 10);
+    cursor: crosshair;
+    font-size: 1em;
+   
+}
+
+.ecua-container:hover {
+    background-color: yellow; color: blue; border: 1px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+    
+}
+.senegal-container:hover { 
+    background: green; color: yellow; border: 1px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+    
+}
+.neth-container:hover { 
+    background-color: whitesmoke; color: red; border:  0px;
+    cursor: crosshair;
+    font-size: 1em;
+    
+}
+.england-container:hover { background: white; color: red; border: 0px solid lightblue;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.iran-container:hover { background-color: bisque ; color: green ; border:  1px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.usa-container:hover { background: blue;color: aliceblue; border: 1px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.gales-container:hover { background-color: green; color: aliceblue; border: 1px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.arg-cont:hover { background-color: rgb(115, 176, 255); color: aliceblue;border: 2px solid yellow;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.arabia-cont:hover { background-color: green; color: black; border: 0px solid whitesmoke;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.mexico-cont:hover { background-color: white; color: red; border:  1px solid green;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.polska-cont:hover { background: white; color: rgb(215, 19, 19); border: 1px solid black;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.france-cont:hover { background:  blue; color: red; border: 2px whitesmoke solid;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.austr-cont:hover { background-color: yellowgreen; border: 1px solid red; color: green;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.dina-cont:hover { background-color: red; color: whitesmoke ; border: 0px solid black;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.tunez-cont:hover { background-color: red; color: black; border: 2px solid whitesmoke;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.spain-cont:hover {background-color: yellow; color: black; border: 2px solid red; 
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.costa-cont:hover { background-color: whitesmoke; color: blue; border: 0px blue solid ;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.ger-cont:hover { background-color: yellow; color:  red; border:  2px solid black;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.japan-cont:hover { background-color: whitesmoke; color: red; border: 1px solid black;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.belgium-cont:hover { background-color: black; color: red; border:  2px solid yellow;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.switzerland-cont:hover { background-color: whitesmoke; color:red; border: 2px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.camerun-cont:hover { background-color: green; color: red; border: 0px solid yellow;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.serbia-cont:hover { background-color: white; color: blue; border:  2px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.canada-cont:hover { 
+    background-color: whitesmoke; color:  red; border: red 2px solid;
+    cursor: crosshair;
+    font-size: 1em;
+    
+}
+.marrue-cont:hover { 
+    background-color: red;color: green;border: 0px solid whitesmoke;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.croatia-cont:hover { 
+    background: blue ; color: whitesmoke; border: 2px red solid;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.portugal-cont:hover { 
+    background-color: green; color:  red; border: 2px black solid;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.ghana-cont:hover { 
+    background-color: yellow; color: red; border: green solid 2px;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.uru-cont:hover{ 
+    background-color: lightblue; color: black; border: 2px solid blue;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.korea-cont:hover { 
+    background-color: whitesmoke; color: blue; border: 0px solid red;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+.bra-cont:hover{ 
+    background-color: green; color: yellow; border: 1px solid blue;
+    cursor: crosshair;
+    font-size: 1em;
+
+}
+
+
+/*FASE GRUPOS*/
+.win {
+    color: green;
+}
+.lost{
+     color: red;
+}
+.header-group {
+    font-size: 80px;
+    color: brown;
+}
+.difgol-group {
+    color: brown;
+}
+.container-table table {
+    background-color: rgb(236, 187, 124);
+    border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    margin-top: 100px;
+    
+}
+.container-table img {
+    height: 15px;
+    width: 30px;
+    border-radius: 20%;
+    margin-right: 20px;
+    
+}
+td { text-align: center;
+    border: solid 2px whitesmoke;
+    border-bottom: none;
+    color: rgb(82, 80, 80);
+    font-size: 1.25em;
+    border-right: none;
+
+}
+th {
+    border: 2px white solid;
+    border-top: none;
+    padding: 40px;
+    border-right: none;
+    font-size: 1.2em;
+}
+.container-grupos {
+    margin-right: 10px;
+    padding: 40px 
+    
+}
 .container-group img {
-    width: 50px;
+
+    width: 40px;
     height: 20px;
 }
 .container-group {
     display: inline;
+    
 
-}
-.title-pages
-
-.qatar-cont:hover { background-color: aliceblue; color: brown;border: solid 1px rgb(246, 10, 10);
-} 
-.ecua-container:hover {background-color: yellow; color: blue; border: 1px solid red;
-}
-.senegal-container:hover { background: green; color: yellow; border: 1px solid red;
-}
-.neth-container:hover { background-color: whitesmoke; color: red; border:  0px;
-}
-.england-container:hover { background: white; color: red; border: 0px solid lightblue;
-}
-.iran-container:hover { background-color: bisque ; color: green ; border:  1px solid red;
-}
-.usa-container:hover { background: blue;color: aliceblue; border: 1px solid red;
-}
-.gales-container:hover { background-color: green; color: aliceblue; border: 1px solid red;
-}
-.arg-cont:hover { background-color: rgb(115, 176, 255); color: aliceblue;border: 2px solid yellow;
-}
-.arabia-cont:hover { background-color: green; color: black; border: 0px solid whitesmoke;
-}
-.mexico-cont:hover { background-color: white; color: red; border:  1px solid green;
-}
-.polska-cont:hover { background: white; color: rgb(215, 19, 19); border: 1px solid black;
-}
-.france-cont:hover { background:  blue; color: red; border: 2px whitesmoke solid;
-}
-.austr-cont:hover { background-color: yellowgreen; border: 1px solid red; color: green;
-}
-.dina-cont:hover { background-color: red; color: whitesmoke ; border: 0px solid black;
-}
-.tunez-cont:hover { background-color: red; color: black; border: 2px solid whitesmoke;
-}
-.spain-cont:hover {background-color: yellow; color: black; border: 2px solid red; 
-}
-.costa-cont:hover { background-color: whitesmoke; color: blue; border: 0px blue solid ;
-}
-.ger-cont:hover { background-color: yellow; color:  red; border:  2px solid black;
-}
-.japan-cont:hover { background-color: whitesmoke; color: red; border: 1px solid black;
-}
-.belgium-cont:hover { background-color: black; color: red; border:  2px solid yellow;
-}
-.switzerland-cont:hover { background-color: whitesmoke; color:red; border: 2px solid red;
-}
-.camerun-cont:hover { background-color: green; color: red; border: 0px solid yellow;
-}
-.serbia-cont:hover { background-color: white; color: blue; border:  2px solid red;
-}
-.canada-cont:hover { background-color: whitesmoke; color:  red; border: red 2px solid;
-}
-.marrue-cont:hover { background-color: red;color: green;border: 0px solid whitesmoke;
-}
-.croatia-cont:hover { background: blue ; color: whitesmoke; border: 2px red solid;
-}
-.portugal-cont:hover { background-color: green; color:  red; border: 2px black solid;
-}
-.ghana-cont:hover { background-color: yellow; color: red; border: green solid 2px;
-}
-.uru-cont:hover{ background-color: lightblue; color: black; border: 2px solid blue;
-}
-.korea-cont:hover { background-color: whitesmoke; color: blue; border: 0px solid red;
-}
-.bra-cont:hover{ background-color: green; color: yellow; border: 1px solid blue;
-}
-.container-grupos {
-    margin-right: 10px;
 }
 .container-logo{ 
     margin-left: 410px;
     margin-bottom: 100px;
     margin-top: 140px;  
-    width: 40%;
-  
+    width: 40%;  
 }
-.container-groups{ padding-top: 10px;
+.container-groups{ 
+    padding-top: 10px;
 
 }
-.container-section{  margin-left: 100px;
-  
+
+/*resultados*/
+.container-info {
+    margin: 0;
+   display: flex;
+   border: 1px solid black;
+}
+.cont-darkdate {
+    background-color: rgb(74, 73, 73);
+}
+.cont-date {
+    background-color: grey;
+
+}
+.cont-white {
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.container-p {
+    color: black;
+    display: flex;
+    justify-content: center;
+;
+}
+.container-p img {
+      width: 40px;
+      height: 20px;
+}
+.numbers p {
+    color: black;
+    
+}
+.cont-whitebis {
+    background-color: aliceblue;
+}
+.cont-whitebis p { 
+    color: rgb(151, 146, 146);
+    
+}
+
+/*FASE LLAVES*/
+.container-section{  
+    margin-left: 100px;
     display: flex;
     align-self: center;
     padding-top: 0;
@@ -127,29 +343,27 @@ a { border-radius: 20%;
 }
 .container-section h1 {
     margin-top: 30px;
- margin-left: 20px;
+    margin-left: 20px;
 }
 
-.container-nav a{ background-color: azure;
-                  color: black;
-                  padding: 10px 10px 10px;
+.container-nav a{ 
+    background-color: azure;
+    color: black;
+    padding: 10px 10px 10px;
 }
 .container-nav{
  display: flex; 
  justify-content: space-around;
  align-items: center;
  font-size: 20px;
-margin-top: 30px;
+ margin-top: 30px;
 
 }
 .container-country h3 {
     color: black;
 }
 .container-country {
-    border-top-left-radius: 20px ;
-    border-bottom-right-radius:20px ;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20%;
     
     background-color: aliceblue;
     display: flex;
@@ -180,10 +394,11 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
 }
-.container-order { display: flex;
-  flex-direction: row;
-justify-content: space-evenly;
-margin-top: 60px;
+.container-order {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 60px;
 }
 .title-pages{
     color: blanchedalmond;
@@ -199,8 +414,8 @@ margin-top: 60px;
 }
 .title-octaves { 
     display: flex;
-  justify-content: space-between;
-  margin: 0;
+   justify-content: space-between;
+   margin: 0;
 }
 .title-quarter h2{
     padding: 6px 6px 6px; 
@@ -218,13 +433,16 @@ margin-top: 60px;
     display: flex;
    justify-content: center;
 }
-.title-final { background-color: rgb(223, 163, 51);
+.title-final { 
+    border: 4mm ridge rgb(172, 120, 23);
+    background-color: rgb(223, 163, 51);
     display: flex;
     justify-content: center;
 }
 .title-tercer { display: flex;
-justify-content: center;
-background-color: rgb(217, 91, 13);
+   justify-content: center;
+   background-color: rgb(217, 91, 13);
+   border: 2mm ridge rgb(125, 89, 23);
 }
 .octaves-span{
     border: solid 5px rgb(193, 101, 101);
